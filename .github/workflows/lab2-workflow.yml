@@ -2,7 +2,7 @@ name: Exploring Workflow Dispatch Trigger
 
 on:
   workflow_dispatch:
-      inputs:                                   #added
+    inputs:   
       run-job:
         description: "Run Specific Job"
         type: boolean
